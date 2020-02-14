@@ -95,7 +95,6 @@ table {
   padding: 20px;
 }
 
-
 th {
   vertical-align: top;
   font-family: "Pathway Gothic One", "Kosugi Maru", sans-serif;
@@ -236,6 +235,7 @@ h3 {
 }
 
 .todo li {
+  font-family: "Pathway Gothic One", "Kosugi Maru", sans-serif;
   line-height: 1.5;
   padding: 0.5em 0;
   list-style-type: none; /*ポチ消す*/
