@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    background: #f9f9f9;
+}
+
+.container {
+    margin: auto;
+
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+    font-family: 'Pathway Gothic One','Kosugi Maru', sans-serif;
+}
+
+.title-check {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: 'Pathway Gothic One','Kosugi Maru', sans-serif;
+}
+
+.description {
+    padding: 30px;
+}
+
+
+.top {
+    background-image: url(フェリー.jpg);
+    background-color: #0005;
+    background-blend-mode: multiply;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.top h1 {
+    color: azure;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+nav {
+    overflow: hidden;
+    background: #342E37;
+    font-family: 'Pathway Gothic One', sans-serif;
+
+
+}
+
+nav ul {
+    text-align: center;
+    width: 355px;
+    /*padding-left: 15px;*/
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    transition: 0.5s;
+    font-size: 20px;
+    
+}
+
+nav a:hover {
+    background: #fff;
+    color: #342E37;
+}
+
+ul#polaroids a:after {
+    content: attr(title);
+    font-family: 'Hina2ndGrade', sans-serif;
+    color: #333;
+}
+
+
+table {
+    padding: 20px;
+}
+
+/*
+table a{
+    color: #65feac;
+}
+*/
+
+
+th {
+    vertical-align: top;
+    font-family: 'Pathway Gothic One','Kosugi Maru', sans-serif;
+    font-size: 20px;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 10px;
+    font-family: 'Pathway Gothic One','Kosugi Maru', sans-serif;
+}
+
+
+h4 {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Pathway Gothic One','Kosugi Maru', sans-serif;
+}
+
+.paragraph {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.col-1 {
+    overflow: hidden;
+    /*    margin-bottom: 20px;*/
+
+}
+
+.col-1 img {
+    width: 100vw;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.col-2 {
+    margin-left: 20px;
+}
+
+.col-3 {
+    float: right;
+    margin-right: 20px;
+}
+
+.col-4 {
+    float: left;
+}
+
+.col-5 {
+    text-align: center;
+}
+
+.col-5 img {
+    width: 100vw;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.pink {
+    background-color: #FE65B7;
+    color: #fff;
+}
+
+.pink a {
+    color: #65feac;
+}
+
+.yellow {
+    background-color: #E9C904;
+    color: #fff;
+}
+
+.yellow a {
+    color: #00a968;
+}
+
+.top-bg {
+    background-color: #97d4d3;
+    color: #32523A;
+    height: 700px;
+}
+
+.contact-bg {
+    background-color: #97d4d3;
+    color: #32523A;
+}
+
+.contact-bg a{
+  color: #32523A;
+}
+
+.blue {
+    background-color: #97d4d3;
+    color: #32523A;
+    padding: 20px;
+}
+
+.blue a {
+    color: #ffa44a;
+}
+
+/*
+.lightblue {
+    background-color: #6AC7E6;
+    color: #fff;
+}
+*/
+
+.topimage {
+    width: 100vw;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.photo {
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: 'Pathway Gothic One','Kosugi Maru', sans-serif;
+    
+}
+
+.box {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.border {
+    border: 1px #424242 solid;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.pictures {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: ;
+    width: 100%;
+}
+
+.paragraph2{
+    position: absolute;
+    width: 100%;
+    top: 440px;
+    text-align: center;
+    font-family: 'Pathway Gothic One','Kosugi Maru', sans-serif;
+}
+
+.todo {
+  border: solid 2px #fff;
+  padding: 0.5em 1em 0.5em 2.3em;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.todo li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none;/*ポチ消す*/
+}
+
+.todo li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  position: absolute;
+  left : 1em; /*左端からのアイコンまで*/
+  color: #fff; /*アイコン色*/
+}
+
+.day1-bg {
+  color: #fff;
+  background: #8AD4D6;
+}
+
+.day1-bg a {
+  color: #32523A;
+}
+
+.day2-bg {
+  color: #fff;
+  background: #42A0A5;
+}
+
+.day2-bg a {
+  color: #32523A;
+}
+
+.day3-bg {
+  color: #fff;
+  background: #77BDB9;
+}
+
+.day3-bg a {
+  color: #32523A;
+}
+
