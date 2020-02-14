@@ -242,7 +242,7 @@ h3 {
 }
 
 .todo li:before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   content: "\f00c";
   position: absolute;
   left: 1em; /*左端からのアイコンまで*/
