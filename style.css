@@ -34,7 +34,7 @@ body {
 
 
 .top {
-    background-image: url(フェリー.jpg);
+    background-image: url(img/ferry.jpg);
     background-color: #0005;
     background-blend-mode: multiply;
     width: 100vw;
@@ -52,7 +52,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
 nav {
@@ -263,7 +263,7 @@ h3 {
     z-index: 3;
     position: absolute;
     top: 0;
-    left: ;
+    left: 0;
     width: 100%;
 }
 
